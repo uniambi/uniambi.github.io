@@ -1,0 +1,1489 @@
+{
+  "groups": [
+    {
+      "id": "t2a",
+      "samples": [
+        {
+          "id": "fuss_eval_single_static_348274",
+          "task": "t2a",
+          "title": "Chirp and tweet",
+          "caption": "<Des>Chirp and tweet</Des> <D>behind and to the left</D>.",
+          "captionRole": "input",
+          "prompt": "<Des>Chirp and tweet</Des> <D>behind and to the left</D>.",
+          "transcript": "",
+          "duration": 2.361428571428571,
+          "motion": "static",
+          "content": "sound",
+          "video": null,
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/t2a/fuss_eval_single_static_348274__ours_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 2.361428571428571,
+              "channels": 4
+            },
+            {
+              "id": "reference",
+              "label": "Ground Truth",
+              "url": "assets/t2a/fuss_eval_single_static_348274__reference_foa.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 2.361428571428571,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/t2a/fuss_eval_single_static_348274__mmaudio_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 2.36140589569161,
+              "channels": 1
+            },
+            {
+              "id": "tango2",
+              "label": "Tango2",
+              "url": "assets/t2a/fuss_eval_single_static_348274__tango2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.242,
+              "channels": 1
+            },
+            {
+              "id": "audioldm2",
+              "label": "AudioLDM2",
+              "url": "assets/t2a/fuss_eval_single_static_348274__audioldm2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 2.361375,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "audio_speech_static_00302287",
+          "task": "t2a",
+          "title": "A file",
+          "caption": "First <Des>a file</Des> <D>at the left side</D>, after that, <Des>a female speaker</Des> saying <S>A little later Clark approached hastily and said:</S> <D>from the back-right direction</D>.",
+          "captionRole": "input",
+          "prompt": "First <Des>a file</Des> <D>at the left side</D>, after that, <Des>a female speaker</Des> saying <S>A little later Clark approached hastily and said:</S> <D>from the back-right direction</D>.",
+          "transcript": "A little later Clark approached hastily and said:",
+          "duration": 6.303,
+          "motion": "static",
+          "content": "sound_speech",
+          "video": null,
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/t2a/audio_speech_static_00302287__ours_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 6.302993197278911,
+              "channels": 4
+            },
+            {
+              "id": "reference",
+              "label": "Ground Truth",
+              "url": "assets/t2a/audio_speech_static_00302287__reference_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 6.302993197278911,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/t2a/audio_speech_static_00302287__mmaudio_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 6.302993197278911,
+              "channels": 1
+            },
+            {
+              "id": "tango2",
+              "label": "Tango2",
+              "url": "assets/t2a/audio_speech_static_00302287__tango2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.242,
+              "channels": 1
+            },
+            {
+              "id": "audioldm2",
+              "label": "AudioLDM2",
+              "url": "assets/t2a/audio_speech_static_00302287__audioldm2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 6.303,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "audio_speech_static_00094744",
+          "task": "t2a",
+          "title": "A bird chirping",
+          "caption": "There is <Des>a bird chirping</Des> <D>behind</D>, next, <Des>a male speaker</Des> speaking the words <S>What did you see me do?</S> <D>toward the front right</D>.",
+          "captionRole": "input",
+          "prompt": "There is <Des>a bird chirping</Des> <D>behind</D>, next, <Des>a male speaker</Des> speaking the words <S>What did you see me do?</S> <D>toward the front right</D>.",
+          "transcript": "What did you see me do?",
+          "duration": 9.218,
+          "motion": "static",
+          "content": "sound_speech",
+          "video": null,
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/t2a/audio_speech_static_00094744__ours_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.218004535147392,
+              "channels": 4
+            },
+            {
+              "id": "reference",
+              "label": "Ground Truth",
+              "url": "assets/t2a/audio_speech_static_00094744__reference_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.218004535147392,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/t2a/audio_speech_static_00094744__mmaudio_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 9.21798185941043,
+              "channels": 1
+            },
+            {
+              "id": "tango2",
+              "label": "Tango2",
+              "url": "assets/t2a/audio_speech_static_00094744__tango2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.242,
+              "channels": 1
+            },
+            {
+              "id": "audioldm2",
+              "label": "AudioLDM2",
+              "url": "assets/t2a/audio_speech_static_00094744__audioldm2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 9.218,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "audio_speech_static_00338080",
+          "task": "t2a",
+          "title": "A purr",
+          "caption": "<Des>a purr</Des> <D>to the right</D>, partly over it, <Des>a woman</Des> saying <S>But where are my two Sisters? she asked.</S> <D>from the front-right direction</D>.",
+          "captionRole": "input",
+          "prompt": "<Des>a purr</Des> <D>to the right</D>, partly over it, <Des>a woman</Des> saying <S>But where are my two Sisters? she asked.</S> <D>from the front-right direction</D>.",
+          "transcript": "But where are my two Sisters? she asked.",
+          "duration": 4.069,
+          "motion": "static",
+          "content": "sound_speech",
+          "video": null,
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/t2a/audio_speech_static_00338080__ours_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 4.069002267573696,
+              "channels": 4
+            },
+            {
+              "id": "reference",
+              "label": "Ground Truth",
+              "url": "assets/t2a/audio_speech_static_00338080__reference_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 4.069002267573696,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/t2a/audio_speech_static_00338080__mmaudio_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 4.068979591836735,
+              "channels": 1
+            },
+            {
+              "id": "tango2",
+              "label": "Tango2",
+              "url": "assets/t2a/audio_speech_static_00338080__tango2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.242,
+              "channels": 1
+            },
+            {
+              "id": "audioldm2",
+              "label": "AudioLDM2",
+              "url": "assets/t2a/audio_speech_static_00338080__audioldm2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 4.069,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "audio_speech_static_00011514",
+          "task": "t2a",
+          "title": "An alarm",
+          "caption": "<Des>an alarm</Des> <D>behind and to the left</D>, after that, <Des>a male speaker</Des> speaking the words <S>And when we stepped on to the raft I says:</S> <D>behind and to the right</D>.",
+          "captionRole": "input",
+          "prompt": "<Des>an alarm</Des> <D>behind and to the left</D>, after that, <Des>a male speaker</Des> speaking the words <S>And when we stepped on to the raft I says:</S> <D>behind and to the right</D>.",
+          "transcript": "And when we stepped on to the raft I says:",
+          "duration": 6.0,
+          "motion": "static",
+          "content": "sound_speech",
+          "video": null,
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/t2a/audio_speech_static_00011514__ours_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 6.0,
+              "channels": 4
+            },
+            {
+              "id": "reference",
+              "label": "Ground Truth",
+              "url": "assets/t2a/audio_speech_static_00011514__reference_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 6.0,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/t2a/audio_speech_static_00011514__mmaudio_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 6.0,
+              "channels": 1
+            },
+            {
+              "id": "tango2",
+              "label": "Tango2",
+              "url": "assets/t2a/audio_speech_static_00011514__tango2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.242,
+              "channels": 1
+            },
+            {
+              "id": "audioldm2",
+              "label": "AudioLDM2",
+              "url": "assets/t2a/audio_speech_static_00011514__audioldm2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 6.0,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "audio_speech_dynamic_00299025",
+          "task": "t2a",
+          "title": "Paper tearing",
+          "caption": "There is <Des>paper tearing</Des> <D>to the left</D>, afterwards, <Des>a female voice</Des> speaking the words <S>On this very night he walked about the lobbies of the House, thinking of all this.</S> <D>in back, moving away</D>.",
+          "captionRole": "input",
+          "prompt": "There is <Des>paper tearing</Des> <D>to the left</D>, afterwards, <Des>a female voice</Des> speaking the words <S>On this very night he walked about the lobbies of the House, thinking of all this.</S> <D>in back, moving away</D>.",
+          "transcript": "On this very night he walked about the lobbies of the House, thinking of all this.",
+          "duration": 6.182,
+          "motion": "dynamic",
+          "content": "sound_speech",
+          "video": null,
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/t2a/audio_speech_dynamic_00299025__ours_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 6.181995464852608,
+              "channels": 4
+            },
+            {
+              "id": "reference",
+              "label": "Ground Truth",
+              "url": "assets/t2a/audio_speech_dynamic_00299025__reference_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 6.181995464852608,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/t2a/audio_speech_dynamic_00299025__mmaudio_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 6.181995464852608,
+              "channels": 1
+            },
+            {
+              "id": "tango2",
+              "label": "Tango2",
+              "url": "assets/t2a/audio_speech_dynamic_00299025__tango2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.242,
+              "channels": 1
+            },
+            {
+              "id": "audioldm2",
+              "label": "AudioLDM2",
+              "url": "assets/t2a/audio_speech_dynamic_00299025__audioldm2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 6.182,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "audio_speech_dynamic_00558461",
+          "task": "t2a",
+          "title": "Whispering",
+          "caption": "<Des>whispering</Des> <D>at the left side, moving closer</D>, then <Des>a female speaker</Des> speaking the words <S>You can meet here just as well.</S> <D>in front and to the left</D>.",
+          "captionRole": "input",
+          "prompt": "<Des>whispering</Des> <D>at the left side, moving closer</D>, then <Des>a female speaker</Des> speaking the words <S>You can meet here just as well.</S> <D>in front and to the left</D>.",
+          "transcript": "You can meet here just as well.",
+          "duration": 8.894,
+          "motion": "dynamic",
+          "content": "sound_speech",
+          "video": null,
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/t2a/audio_speech_dynamic_00558461__ours_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 8.893990929705215,
+              "channels": 4
+            },
+            {
+              "id": "reference",
+              "label": "Ground Truth",
+              "url": "assets/t2a/audio_speech_dynamic_00558461__reference_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 8.893990929705215,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/t2a/audio_speech_dynamic_00558461__mmaudio_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 8.893990929705215,
+              "channels": 1
+            },
+            {
+              "id": "tango2",
+              "label": "Tango2",
+              "url": "assets/t2a/audio_speech_dynamic_00558461__tango2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.242,
+              "channels": 1
+            },
+            {
+              "id": "audioldm2",
+              "label": "AudioLDM2",
+              "url": "assets/t2a/audio_speech_dynamic_00558461__audioldm2_mono.mp3",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 8.894,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "audio_audio_dynamic_00188503",
+          "task": "t2a",
+          "title": "A dog barking",
+          "caption": "First <Des>a dog barking</Des> <D>arcing from the left round to the back right</D>, and underneath it <Des>water trickling</Des> <D>at the back right</D>.",
+          "captionRole": "input",
+          "prompt": "First <Des>a dog barking</Des> <D>arcing from the left round to the back right</D>, and underneath it <Des>water trickling</Des> <D>at the back right</D>.",
+          "transcript": "",
+          "duration": 4.361995464852607,
+          "motion": "dynamic",
+          "content": "sound",
+          "video": null,
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/t2a/audio_audio_dynamic_00188503__ours_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 4.361995464852607,
+              "channels": 4
+            },
+            {
+              "id": "reference",
+              "label": "Ground Truth",
+              "url": "assets/t2a/audio_audio_dynamic_00188503__reference_foa.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 4.361995464852607,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/t2a/audio_audio_dynamic_00188503__mmaudio.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 4.361995464852607,
+              "channels": 1
+            },
+            {
+              "id": "tango2",
+              "label": "Tango2",
+              "url": "assets/t2a/audio_audio_dynamic_00188503__tango2.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.242,
+              "channels": 1
+            },
+            {
+              "id": "audioldm2",
+              "label": "AudioLDM2",
+              "url": "assets/t2a/audio_audio_dynamic_00188503__audioldm2.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 4.362,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "audio_speech_dynamic_00020970",
+          "task": "t2a",
+          "title": "A squeak",
+          "caption": "<Des>a squeak</Des> <D>sweeping from the front to the left</D>. And running under it <Des>a man's voice</Des> speaking the words <S>or whether he had escaped from the fray uninjured.</S> <D>in the upper direction</D>.",
+          "captionRole": "input",
+          "prompt": "<Des>a squeak</Des> <D>sweeping from the front to the left</D>. And running under it <Des>a man's voice</Des> speaking the words <S>or whether he had escaped from the fray uninjured.</S> <D>in the upper direction</D>.",
+          "transcript": "or whether he had escaped from the fray uninjured.",
+          "duration": 7.449002267573696,
+          "motion": "dynamic",
+          "content": "sound_speech",
+          "video": null,
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/t2a/audio_speech_dynamic_00020970__ours_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 7.449002267573696,
+              "channels": 4
+            },
+            {
+              "id": "reference",
+              "label": "Ground Truth",
+              "url": "assets/t2a/audio_speech_dynamic_00020970__reference_foa.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 7.449002267573696,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/t2a/audio_speech_dynamic_00020970__mmaudio.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 7.448979591836735,
+              "channels": 1
+            },
+            {
+              "id": "tango2",
+              "label": "Tango2",
+              "url": "assets/t2a/audio_speech_dynamic_00020970__tango2.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.242,
+              "channels": 1
+            },
+            {
+              "id": "audioldm2",
+              "label": "AudioLDM2",
+              "url": "assets/t2a/audio_speech_dynamic_00020970__audioldm2.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 7.449,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "audio_speech_dynamic_00153020",
+          "task": "t2a",
+          "title": "Liquid filling a container",
+          "caption": "<Des>liquid filling a container</Des> <D>from the front-left direction</D>. Afterwards, <Des>a female voice</Des> speaking the words <S>Since the establishment of the married couple in London they had frequented their former friends of the house of Raggles,</S> <D>at the left side, getting louder as it nears</D>.",
+          "captionRole": "input",
+          "prompt": "<Des>liquid filling a container</Des> <D>from the front-left direction</D>. Afterwards, <Des>a female voice</Des> speaking the words <S>Since the establishment of the married couple in London they had frequented their former friends of the house of Raggles,</S> <D>at the left side, getting louder as it nears</D>.",
+          "transcript": "Since the establishment of the married couple in London they had frequented their former friends of the house of Raggles,",
+          "duration": 13.779002267573697,
+          "motion": "dynamic",
+          "content": "sound_speech",
+          "video": null,
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/t2a/audio_speech_dynamic_00153020__ours_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 13.779002267573697,
+              "channels": 4
+            },
+            {
+              "id": "reference",
+              "label": "Ground Truth",
+              "url": "assets/t2a/audio_speech_dynamic_00153020__reference_foa.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 13.779002267573697,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/t2a/audio_speech_dynamic_00153020__mmaudio.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 13.778979591836734,
+              "channels": 1
+            },
+            {
+              "id": "tango2",
+              "label": "Tango2",
+              "url": "assets/t2a/audio_speech_dynamic_00153020__tango2.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.242,
+              "channels": 1
+            },
+            {
+              "id": "audioldm2",
+              "label": "AudioLDM2",
+              "url": "assets/t2a/audio_speech_dynamic_00153020__audioldm2.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 13.779,
+              "channels": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v2a",
+      "samples": [
+        {
+          "id": "000009_yt-ambigen_J2PYwi8fy-M_48",
+          "task": "v2a",
+          "title": "Violin playing",
+          "caption": "<Des>Violin playing</Des> <D>in front</D>. <Des>Room ambient noise</Des> from booth vent system <D>all around</D>.",
+          "captionRole": "reference_description",
+          "prompt": "",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "",
+          "content": "",
+          "video": "assets/v2a/000009_yt-ambigen_J2PYwi8fy-M_48.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/v2a/000009_yt-ambigen_J2PYwi8fy-M_48.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0075,
+              "channels": 4
+            },
+            {
+              "id": "omniaudio",
+              "label": "OmniAudio",
+              "url": "assets/v2a/000009_yt-ambigen_J2PYwi8fy-M_48__omniaudio.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.984580498866213,
+              "channels": 4
+            },
+            {
+              "id": "visage",
+              "label": "Visage",
+              "url": "assets/v2a/000009_yt-ambigen_J2PYwi8fy-M_48__visage.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0078125,
+              "channels": 4
+            }
+          ]
+        },
+        {
+          "id": "0FB9jMXMP8A_112",
+          "task": "v2a",
+          "title": "Classical guitar playing",
+          "caption": "<Des>Classical guitar playing</Des> <D>in front</D>. <Des>Park ambient noise</Des> <D>somewhere</D>.",
+          "captionRole": "reference_description",
+          "prompt": "",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "",
+          "content": "",
+          "video": "assets/v2a/0FB9jMXMP8A_112.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/v2a/0FB9jMXMP8A_112.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0075,
+              "channels": 4
+            },
+            {
+              "id": "omniaudio",
+              "label": "OmniAudio",
+              "url": "assets/v2a/0FB9jMXMP8A_112__omniaudio.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.984580498866213,
+              "channels": 4
+            },
+            {
+              "id": "visage",
+              "label": "Visage",
+              "url": "assets/v2a/0FB9jMXMP8A_112__visage.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0078125,
+              "channels": 4
+            }
+          ]
+        },
+        {
+          "id": "4C2hPdCmtbc_70",
+          "task": "v2a",
+          "title": "Wind noise",
+          "caption": "<Des>Wind noise</Des> <D>all around</D>. <Des>Footsteps of several pedestrians</Des> <D>somewhere</D>. <Des>Crowd murmuring</Des> <D>somewhere</D>.",
+          "captionRole": "reference_description",
+          "prompt": "",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "",
+          "content": "",
+          "video": "assets/v2a/4C2hPdCmtbc_70.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/v2a/4C2hPdCmtbc_70.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0075,
+              "channels": 4
+            },
+            {
+              "id": "omniaudio",
+              "label": "OmniAudio",
+              "url": "assets/v2a/4C2hPdCmtbc_70__omniaudio.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.984580498866213,
+              "channels": 4
+            },
+            {
+              "id": "visage",
+              "label": "Visage",
+              "url": "assets/v2a/4C2hPdCmtbc_70__visage.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0078125,
+              "channels": 4
+            }
+          ]
+        },
+        {
+          "id": "530swnPWJrQ_5",
+          "task": "v2a",
+          "title": "Several trumpeters playing",
+          "caption": "<Des>Several trumpeters playing</Des> from trumpeters <D>in front and to the left</D> and <D>in front and to the right</D>. <Des>A drummer playing</Des> from drummer <D>in front and to the left</D>. <Des>A brass player playing</Des> from brass player <D>in front</D>. <Des>A saxophonist playing</Des> from saxophonist <D>in front and to the right</D>. <Des>A tuba player playing</Des> from tuba player <D>in front and to the right</D>.",
+          "captionRole": "reference_description",
+          "prompt": "",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "",
+          "content": "",
+          "video": "assets/v2a/530swnPWJrQ_5.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/v2a/530swnPWJrQ_5.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0075,
+              "channels": 4
+            },
+            {
+              "id": "omniaudio",
+              "label": "OmniAudio",
+              "url": "assets/v2a/530swnPWJrQ_5__omniaudio.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.984580498866213,
+              "channels": 4
+            },
+            {
+              "id": "visage",
+              "label": "Visage",
+              "url": "assets/v2a/530swnPWJrQ_5__visage.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0078125,
+              "channels": 4
+            }
+          ]
+        },
+        {
+          "id": "5WQ87UIJHQU_17",
+          "task": "v2a",
+          "title": "Several trombones playing",
+          "caption": "<Des>Several trombones playing</Des> <D>all around</D>. <Des>Drum set playing</Des> <D>in front</D>.",
+          "captionRole": "reference_description",
+          "prompt": "",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "",
+          "content": "",
+          "video": "assets/v2a/5WQ87UIJHQU_17.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/v2a/5WQ87UIJHQU_17.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0075,
+              "channels": 4
+            },
+            {
+              "id": "omniaudio",
+              "label": "OmniAudio",
+              "url": "assets/v2a/5WQ87UIJHQU_17__omniaudio.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.984580498866213,
+              "channels": 4
+            },
+            {
+              "id": "visage",
+              "label": "Visage",
+              "url": "assets/v2a/5WQ87UIJHQU_17__visage.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0078125,
+              "channels": 4
+            }
+          ]
+        },
+        {
+          "id": "9X2wM6HD_og_66",
+          "task": "v2a",
+          "title": "Fireworks exploding",
+          "caption": "<Des>Fireworks exploding</Des> from bursting fireworks over lake <D>somewhere</D>. <Des>Crowd cheering</Des> from gathered audience along lakeshore <D>somewhere</D>.",
+          "captionRole": "reference_description",
+          "prompt": "",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "",
+          "content": "",
+          "video": "assets/v2a/9X2wM6HD_og_66.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/v2a/9X2wM6HD_og_66.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0075,
+              "channels": 4
+            },
+            {
+              "id": "omniaudio",
+              "label": "OmniAudio",
+              "url": "assets/v2a/9X2wM6HD_og_66__omniaudio.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.984580498866213,
+              "channels": 4
+            },
+            {
+              "id": "visage",
+              "label": "Visage",
+              "url": "assets/v2a/9X2wM6HD_og_66__visage.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0078125,
+              "channels": 4
+            }
+          ]
+        },
+        {
+          "id": "DcMh9zgZbSg_640",
+          "task": "v2a",
+          "title": "Large flying birds flapping",
+          "caption": "<Des>Large flying birds flapping</Des> <D>above</D>. <Des>Wild woodland birds chirping</Des> <D>somewhere</D>. <Des>Creature in grass rustling</Des> <D>below</D>.",
+          "captionRole": "reference_description",
+          "prompt": "",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "",
+          "content": "",
+          "video": "assets/v2a/DcMh9zgZbSg_640.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/v2a/DcMh9zgZbSg_640.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0075,
+              "channels": 4
+            },
+            {
+              "id": "omniaudio",
+              "label": "OmniAudio",
+              "url": "assets/v2a/DcMh9zgZbSg_640__omniaudio.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.984580498866213,
+              "channels": 4
+            },
+            {
+              "id": "visage",
+              "label": "Visage",
+              "url": "assets/v2a/DcMh9zgZbSg_640__visage.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0078125,
+              "channels": 4
+            }
+          ]
+        },
+        {
+          "id": "JUN314mwb90_131",
+          "task": "v2a",
+          "title": "Bamboo flute playing",
+          "caption": "<Des>Bamboo flute playing</Des> <D>in front</D>. <Des>Wild birds chirping</Des> <D>somewhere</D>.",
+          "captionRole": "reference_description",
+          "prompt": "",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "",
+          "content": "",
+          "video": "assets/v2a/JUN314mwb90_131.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/v2a/JUN314mwb90_131.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0075,
+              "channels": 4
+            },
+            {
+              "id": "omniaudio",
+              "label": "OmniAudio",
+              "url": "assets/v2a/JUN314mwb90_131__omniaudio.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.984580498866213,
+              "channels": 4
+            },
+            {
+              "id": "visage",
+              "label": "Visage",
+              "url": "assets/v2a/JUN314mwb90_131__visage.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0078125,
+              "channels": 4
+            }
+          ]
+        },
+        {
+          "id": "aCCPRvNpcYk_20",
+          "task": "v2a",
+          "title": "Birds chirping",
+          "caption": "<Des>Birds chirping</Des> from birds in wooded park <D>somewhere</D>.",
+          "captionRole": "reference_description",
+          "prompt": "",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "",
+          "content": "",
+          "video": "assets/v2a/aCCPRvNpcYk_20.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/v2a/aCCPRvNpcYk_20.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0075,
+              "channels": 4
+            },
+            {
+              "id": "omniaudio",
+              "label": "OmniAudio",
+              "url": "assets/v2a/aCCPRvNpcYk_20__omniaudio.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.984580498866213,
+              "channels": 4
+            },
+            {
+              "id": "visage",
+              "label": "Visage",
+              "url": "assets/v2a/aCCPRvNpcYk_20__visage.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0078125,
+              "channels": 4
+            }
+          ]
+        },
+        {
+          "id": "aieThfuvmtY_26",
+          "task": "v2a",
+          "title": "Marching drum beats",
+          "caption": "<Des>Marching drum beats</Des> from marching drum corps <D>in front</D> and <D>in front and to the right</D>. <Des>Brass melody</Des> from marching brass players <D>in front</D> and <D>in front and to the right</D>. <Des>Crowd noise</Des> from roadside spectators <D>somewhere</D>.",
+          "captionRole": "reference_description",
+          "prompt": "",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "",
+          "content": "",
+          "video": "assets/v2a/aieThfuvmtY_26.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/v2a/aieThfuvmtY_26.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0075,
+              "channels": 4
+            },
+            {
+              "id": "omniaudio",
+              "label": "OmniAudio",
+              "url": "assets/v2a/aieThfuvmtY_26__omniaudio.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.984580498866213,
+              "channels": 4
+            },
+            {
+              "id": "visage",
+              "label": "Visage",
+              "url": "assets/v2a/aieThfuvmtY_26__visage.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0078125,
+              "channels": 4
+            }
+          ]
+        },
+        {
+          "id": "f2kvR5I8s3c_80",
+          "task": "v2a",
+          "title": "Bubbles gurgling",
+          "caption": "<Des>Bubbles gurgling</Des> from underwater exhaled bubbles <D>all around</D>. <Des>Regulator hissing</Des> from diver breathing regulator <D>behind and to the left</D>. <Des>Speech</Des> from unseen diver <D>somewhere</D>.",
+          "captionRole": "reference_description",
+          "prompt": "",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "",
+          "content": "",
+          "video": "assets/v2a/f2kvR5I8s3c_80.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/v2a/f2kvR5I8s3c_80.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0075,
+              "channels": 4
+            },
+            {
+              "id": "omniaudio",
+              "label": "OmniAudio",
+              "url": "assets/v2a/f2kvR5I8s3c_80__omniaudio.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.984580498866213,
+              "channels": 4
+            },
+            {
+              "id": "visage",
+              "label": "Visage",
+              "url": "assets/v2a/f2kvR5I8s3c_80__visage.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0078125,
+              "channels": 4
+            }
+          ]
+        },
+        {
+          "id": "pC2WmY6bkB4_448",
+          "task": "v2a",
+          "title": "Hand drum percussion",
+          "caption": "<Des>Hand drum percussion</Des> from tabla drums <D>in front</D>.",
+          "captionRole": "reference_description",
+          "prompt": "",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "unknown",
+          "content": "sound",
+          "video": "assets/v2a/pC2WmY6bkB4_448.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/v2a/pC2WmY6bkB4_448__ours_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.00750566893424,
+              "channels": 4
+            },
+            {
+              "id": "reference",
+              "label": "Ground Truth",
+              "url": "assets/v2a/pC2WmY6bkB4_448__reference_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.9935,
+              "channels": 4
+            },
+            {
+              "id": "omniaudio",
+              "label": "OmniAudio",
+              "url": "assets/v2a/pC2WmY6bkB4_448__omniaudio.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.984580498866213,
+              "channels": 4
+            },
+            {
+              "id": "visage",
+              "label": "Visage",
+              "url": "assets/v2a/pC2WmY6bkB4_448__visage.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0078125,
+              "channels": 4
+            }
+          ]
+        },
+        {
+          "id": "bul6AM9JaDQ_165",
+          "task": "v2a",
+          "title": "Paddles splashing",
+          "caption": "<Des>Paddles splashing</Des> from kayak paddles <D>below</D>. <Des>Motorboat engine humming</Des> from motorboat <D>behind and to the left</D>. <Des>Person speaking</Des> from person <D>somewhere</D>.",
+          "captionRole": "reference_description",
+          "prompt": "",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "unknown",
+          "content": "sound_speech",
+          "video": "assets/v2a/bul6AM9JaDQ_165.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/v2a/bul6AM9JaDQ_165__ours_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.00750566893424,
+              "channels": 4
+            },
+            {
+              "id": "reference",
+              "label": "Ground Truth",
+              "url": "assets/v2a/bul6AM9JaDQ_165__reference_foa.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.9935,
+              "channels": 4
+            },
+            {
+              "id": "omniaudio",
+              "label": "OmniAudio",
+              "url": "assets/v2a/bul6AM9JaDQ_165__omniaudio.flac",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.984580498866213,
+              "channels": 4
+            },
+            {
+              "id": "visage",
+              "label": "Visage",
+              "url": "assets/v2a/bul6AM9JaDQ_165__visage.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0078125,
+              "channels": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vt2a",
+      "samples": [
+        {
+          "id": "omniaudio_test_bul6AM9JaDQ_282",
+          "task": "vt2a",
+          "title": "Wind noise",
+          "caption": "<Des>Wind noise</Des> from atmospheric wind <D>all around</D>. <Des>Several birds chirping</Des> from lakeside birds <D>somewhere</D>. <Des>A man</Des> says <S>He treats me so nicely.</S> <D>on the left</D>.",
+          "captionRole": "input",
+          "prompt": "<Des>Wind noise</Des> from atmospheric wind <D>all around</D>. <Des>Several birds chirping</Des> from lakeside birds <D>somewhere</D>. <Des>A man</Des> says <S>He treats me so nicely.</S> <D>on the left</D>.",
+          "transcript": "He treats me so nicely.",
+          "duration": 9.9935,
+          "motion": "",
+          "content": "",
+          "video": "assets/vt2a/omniaudio_test_bul6AM9JaDQ_282.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/vt2a/omniaudio_test_bul6AM9JaDQ_282.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.993492063492063,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/vt2a/omniaudio_test_bul6AM9JaDQ_282__mmaudio.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 9.88,
+              "channels": 1
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "assets/vt2a/omniaudio_test_bul6AM9JaDQ_282__audiox.wav",
+              "kind": "stereo",
+              "formatLabel": "Stereo",
+              "duration": 10.0,
+              "channels": 2
+            },
+            {
+              "id": "omni2sound",
+              "label": "Omni2Sound",
+              "url": "assets/vt2a/omniaudio_test_bul6AM9JaDQ_282__omni2sound.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.0,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "omniaudio_test_pC2WmY6bkB4_166",
+          "task": "vt2a",
+          "title": "Two tablas drumming",
+          "caption": "<Des>Two tablas drumming</Des> <D>in front</D>. <Des>A man</Des> says <S>the ladder.</S> <D>from below</D>.",
+          "captionRole": "input",
+          "prompt": "<Des>Two tablas drumming</Des> <D>in front</D>. <Des>A man</Des> says <S>the ladder.</S> <D>from below</D>.",
+          "transcript": "the ladder.",
+          "duration": 9.9935,
+          "motion": "",
+          "content": "",
+          "video": "assets/vt2a/omniaudio_test_pC2WmY6bkB4_166.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/vt2a/omniaudio_test_pC2WmY6bkB4_166.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.9935,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/vt2a/omniaudio_test_pC2WmY6bkB4_166__mmaudio.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 9.88,
+              "channels": 1
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "assets/vt2a/omniaudio_test_pC2WmY6bkB4_166__audiox.wav",
+              "kind": "stereo",
+              "formatLabel": "Stereo",
+              "duration": 10.0,
+              "channels": 2
+            },
+            {
+              "id": "omni2sound",
+              "label": "Omni2Sound",
+              "url": "assets/vt2a/omniaudio_test_pC2WmY6bkB4_166__omni2sound.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.0,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "JUN314mwb90_131",
+          "task": "vt2a",
+          "title": "Bamboo flute playing",
+          "caption": "<Des>Bamboo flute playing</Des> <D>in front</D>. <Des>Wild birds chirping</Des> <D>somewhere</D>.",
+          "captionRole": "input",
+          "prompt": "<Des>Bamboo flute playing</Des> <D>in front</D>. <Des>Wild birds chirping</Des> <D>somewhere</D>.",
+          "transcript": "",
+          "duration": 10.0075,
+          "motion": "",
+          "content": "",
+          "video": "assets/vt2a/JUN314mwb90_131.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/vt2a/JUN314mwb90_131.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 10.0075,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/vt2a/JUN314mwb90_131__mmaudio.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 9.88,
+              "channels": 1
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "assets/vt2a/JUN314mwb90_131__audiox.wav",
+              "kind": "stereo",
+              "formatLabel": "Stereo",
+              "duration": 10.0,
+              "channels": 2
+            },
+            {
+              "id": "omni2sound",
+              "label": "Omni2Sound",
+              "url": "assets/vt2a/JUN314mwb90_131__omni2sound.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.0,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "omniaudio_test_0FB9jMXMP8A_73",
+          "task": "vt2a",
+          "title": "Wooden acoustic guitar playing",
+          "caption": "<Des>Wooden acoustic guitar playing</Des> <D>in front</D>. <Des>Park ambient noise</Des> from wind and foliage <D>somewhere</D>. <Des>A sharp, piercing electronic alarm sounds continuously</Des> <D>from above</D>.",
+          "captionRole": "input",
+          "prompt": "<Des>Wooden acoustic guitar playing</Des> <D>in front</D>. <Des>Park ambient noise</Des> from wind and foliage <D>somewhere</D>. <Des>A sharp, piercing electronic alarm sounds continuously</Des> <D>from above</D>.",
+          "transcript": "",
+          "duration": 9.9935,
+          "motion": "",
+          "content": "",
+          "video": "assets/vt2a/omniaudio_test_0FB9jMXMP8A_73.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/vt2a/omniaudio_test_0FB9jMXMP8A_73.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.9935,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/vt2a/omniaudio_test_0FB9jMXMP8A_73__mmaudio.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 9.88,
+              "channels": 1
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "assets/vt2a/omniaudio_test_0FB9jMXMP8A_73__audiox.wav",
+              "kind": "stereo",
+              "formatLabel": "Stereo",
+              "duration": 10.0,
+              "channels": 2
+            },
+            {
+              "id": "omni2sound",
+              "label": "Omni2Sound",
+              "url": "assets/vt2a/omniaudio_test_0FB9jMXMP8A_73__omni2sound.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.0,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "omniaudio_test_5WQ87UIJHQU_17",
+          "task": "vt2a",
+          "title": "Several trombones playing",
+          "caption": "<Des>Several trombones playing</Des> <D>all around</D>. <Des>Drum set playing</Des> <D>in front</D>. <Des>Sharp, continuous high-pressure gas jet sound</Des> erupts <D>at the back left</D>, then cuts off abruptly.",
+          "captionRole": "input",
+          "prompt": "<Des>Several trombones playing</Des> <D>all around</D>. <Des>Drum set playing</Des> <D>in front</D>. <Des>Sharp, continuous high-pressure gas jet sound</Des> erupts <D>at the back left</D>, then cuts off abruptly.",
+          "transcript": "",
+          "duration": 9.9935,
+          "motion": "",
+          "content": "",
+          "video": "assets/vt2a/omniaudio_test_5WQ87UIJHQU_17.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/vt2a/omniaudio_test_5WQ87UIJHQU_17.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.9935,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/vt2a/omniaudio_test_5WQ87UIJHQU_17__mmaudio.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 9.88,
+              "channels": 1
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "assets/vt2a/omniaudio_test_5WQ87UIJHQU_17__audiox.wav",
+              "kind": "stereo",
+              "formatLabel": "Stereo",
+              "duration": 10.0,
+              "channels": 2
+            },
+            {
+              "id": "omni2sound",
+              "label": "Omni2Sound",
+              "url": "assets/vt2a/omniaudio_test_5WQ87UIJHQU_17__omni2sound.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.0,
+              "channels": 1
+            }
+          ]
+        },
+        {
+          "id": "omniaudio_test__yNwzbv3PeI_184",
+          "task": "vt2a",
+          "title": "Acoustic double bass playing",
+          "caption": "<Des>Acoustic double bass playing</Des> <D>behind</D>. <Des>Hand percussion set playing</Des> <D>to the left</D>. <Des>Violin playing</Des> <D>in front and to the left</D>. <Des>Accordion playing</Des> <D>behind and to the right</D>. <Des>Concert hall reverberation</Des> <D>all around</D>. <Des>male scream</Des> <D>at the back left</D>.",
+          "captionRole": "input",
+          "prompt": "<Des>Acoustic double bass playing</Des> <D>behind</D>. <Des>Hand percussion set playing</Des> <D>to the left</D>. <Des>Violin playing</Des> <D>in front and to the left</D>. <Des>Accordion playing</Des> <D>behind and to the right</D>. <Des>Concert hall reverberation</Des> <D>all around</D>. <Des>male scream</Des> <D>at the back left</D>.",
+          "transcript": "",
+          "duration": 9.9935,
+          "motion": "",
+          "content": "",
+          "video": "assets/vt2a/omniaudio_test__yNwzbv3PeI_184.mp4",
+          "versions": [
+            {
+              "id": "ours",
+              "label": "UniAmbi",
+              "url": "assets/vt2a/omniaudio_test__yNwzbv3PeI_184.wav",
+              "kind": "foa",
+              "formatLabel": "FOA · binaural",
+              "duration": 9.9935,
+              "channels": 4
+            },
+            {
+              "id": "mmaudio",
+              "label": "MMAudio",
+              "url": "assets/vt2a/omniaudio_test__yNwzbv3PeI_184__mmaudio.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 9.88,
+              "channels": 1
+            },
+            {
+              "id": "audiox",
+              "label": "AudioX",
+              "url": "assets/vt2a/omniaudio_test__yNwzbv3PeI_184__audiox.wav",
+              "kind": "stereo",
+              "formatLabel": "Stereo",
+              "duration": 10.0,
+              "channels": 2
+            },
+            {
+              "id": "omni2sound",
+              "label": "Omni2Sound",
+              "url": "assets/vt2a/omniaudio_test__yNwzbv3PeI_184__omni2sound.wav",
+              "kind": "mono",
+              "formatLabel": "Mono",
+              "duration": 10.0,
+              "channels": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

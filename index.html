@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="UniAmbi audio demos: spatial audio generation from text, video, and video with text. Listen and compare in an interactive 360° viewer.">
+  <meta name="theme-color" content="#fafbfe">
+  <title>UniAmbi · Spatial Audio Demos</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='27' fill='%235454d4'/%3E%3Cpath d='M17 33h5l4-13 6 26 6-26 4 13h5' fill='none' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="vendor/omnitone.min.js" defer></script>
+  <script src="app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#examples">Skip to audio examples</a>
+  <main>
+    <section class="hero">
+      <h2>UniAmbi: Unified Spatial Audio Generation via Iterative Expert Routing</h2>
+      <p class="abstract">Spatial audio generation aims to synthesize spatial sound fields that faithfully reflect user intent under diverse conditioning signals.
+However, existing methods remain limited in their ability to generate accurate, high-fidelity spatial audio from heterogeneous inputs.
+To address this limitation, we propose UniAmbi, a unified framework for jointly synthesizing environmental audio and speech in first-order Ambisonics (FOA) format from multi-conditions.
+Our framework integrates three complementary designs to achieve efficient generation with semantic consistency, spatial accuracy, and perceptual fidelity.
+First, we introduce a Looped DiT backbone that addresses the complexity of multi-conditional FOA generation through iterative computation with shared parameters, increasing effective depth without a proportional increase in parameter count.
+Second, we introduce a loop aware sliding window Mixture-of-Experts (MoE) module to mitigate the representational limitations of strict parameter sharing.
+By incorporating expert routing on the current loop iteration and local temporal context, the module enables round-dependent transformations while encouraging consistent expert selection among neighboring tokens. Finally, we introduce per-loop on-policy self-distillation (OPSD), which converts generation-level feedback into direct supervision for predictions at every loop depth along the model's own generation trajectories.
+Experimental results show that our model outperforms existing methods on multiple spatial audio generation tasks.</p>
+      <div class="listening-note"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 14v-3a8 8 0 0 1 16 0v3M4 12H3v8h4v-8H4Zm16 0h1v8h-4v-8h3Z"/></svg>For the best experience, wear headphones.</div>
+    </section>
+    <div class="demo-shell">
+      <nav class="group-nav" aria-label="Demo groups">
+        <button class="nav-arrow" id="previous-group" aria-label="Previous group">←</button>
+        <div class="group-tabs" role="tablist" aria-label="Input modality">
+          <button id="tab-t2a" class="group-tab" role="tab" data-group="t2a" aria-selected="true" aria-controls="examples"><span class="tab-number">01</span><span>Text to Audio</span></button>
+          <button id="tab-v2a" class="group-tab" role="tab" data-group="v2a" aria-selected="false" aria-controls="examples"><span class="tab-number">02</span><span>Video to Audio</span></button>
+          <button id="tab-vt2a" class="group-tab" role="tab" data-group="vt2a" aria-selected="false" aria-controls="examples"><span class="tab-number">03</span><span>Video + Text to Audio</span></button>
+        </div>
+        <button class="nav-arrow" id="next-group" aria-label="Next group">→</button>
+      </nav>
+      <section class="group-intro" aria-live="polite">
+        <div><div class="section-kicker" id="group-kicker">01 / 03 · TEXT CONDITIONED</div><h2 id="group-title">Text to spatial audio</h2><p id="group-description">Listen to sound scenes and speech guided by a text prompt.</p></div>
+      </section>
+      <div class="playback-guide"><p id="group-guide" hidden></p><label class="master-volume" for="master-volume"><span>Volume</span><input type="range" id="master-volume" min="0" max="1" step="0.01" value="0.7" aria-label="Playback volume"></label></div>
+      <section id="examples" class="examples" role="tabpanel" aria-labelledby="tab-t2a" tabindex="0"><p class="loading-message">Loading audio examples…</p></section>
+      <div class="bottom-navigation"><button id="previous-bottom" class="page-button" type="button">← Previous group</button><span id="page-counter">01 / 03</span><button id="next-bottom" class="page-button" type="button">Next group →</button></div>
+      <details class="rendering-details"><summary>About audio playback</summary><p><strong>FOA audio is rendered to binaural in real time.</strong> Original W, Y, Z, X channels pass through Omnitone during playback. Dragging the active 360° view immediately updates the FOA rotation and binaural output. The cache stores the original four-channel signal, not a pre-rendered stereo result.</p><p>Source formats are shown beside each method. Mono and stereo files retain their supplied channel layout and do not rotate with the view. Every track retains its full duration, with a shared playback gain and no per-method normalization.</p></details>
+    </div>
+  </main>
+  <footer><span class="footer-brand">UniAmbi</span><span>Spatial audio, from multiple perspectives.</span></footer>
+  <div id="announcer" class="sr-only" aria-live="polite"></div>
+  <noscript>This demo requires JavaScript to decode and play spatial audio.</noscript>
+</body>
+</html>
