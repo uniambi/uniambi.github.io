@@ -1093,15 +1093,6 @@
               "channels": 4
             },
             {
-              "id": "reference",
-              "label": "Ground Truth",
-              "url": "assets/v2a/pC2WmY6bkB4_448__reference_foa.wav",
-              "kind": "foa",
-              "formatLabel": "FOA · binaural",
-              "duration": 9.9935,
-              "channels": 4
-            },
-            {
               "id": "omniaudio",
               "label": "OmniAudio",
               "url": "assets/v2a/pC2WmY6bkB4_448__omniaudio.flac",
@@ -1141,15 +1132,6 @@
               "kind": "foa",
               "formatLabel": "FOA · binaural",
               "duration": 10.00750566893424,
-              "channels": 4
-            },
-            {
-              "id": "reference",
-              "label": "Ground Truth",
-              "url": "assets/v2a/bul6AM9JaDQ_165__reference_foa.wav",
-              "kind": "foa",
-              "formatLabel": "FOA · binaural",
-              "duration": 9.9935,
               "channels": 4
             },
             {
